@@ -50,6 +50,9 @@
                                 <state key="normal" title="로그인">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnActSubmit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fv-ok-oGw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpO-BA-S40">
                                 <rect key="frame" x="110" y="575" width="172" height="51"/>
@@ -91,7 +94,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="btnLogin" destination="5SE-ye-hZ7" id="y6w-nx-6ML"/>
                         <outlet property="txtID" destination="9bl-XN-g6W" id="QCe-PO-Qb2"/>
                         <outlet property="txtPW" destination="4cV-OF-zvS" id="QTr-6N-HgV"/>
                     </connections>
